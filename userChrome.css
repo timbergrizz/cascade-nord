@@ -1,3 +1,12 @@
+@font-face{
+  font-family: 'JetBrainsMono';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /*==============================================================================================*
 
   +-----+-----+-----+-----+-----+-----+-----+
@@ -51,19 +60,19 @@
 
     @media (prefers-color-scheme: dark) { :root {
 
-        --window-colour:                     #1E2021;
-        --secondary-colour:                  #191B1C;
-        --inverted-colour:                   #FAFAFC;
+        --window-colour:                     #2e3440;
+        --secondary-colour:                  #4c566a;
+        --inverted-colour:                   #eceff4;
 
         /* Containter Tab Colours */
-        --uc-identity-colour-blue:            #7ED6DF;
-        --uc-identity-colour-turquoise:       #55E6C1;
-        --uc-identity-colour-green:           #B8E994;
-        --uc-identity-colour-yellow:          #F7D794;
-        --uc-identity-colour-orange:          #F19066;
-        --uc-identity-colour-red:             #FC5C65;
+        --uc-identity-colour-blue:            #5e81ac;
+        --uc-identity-colour-turquoise:       #88c0d0;
+        --uc-identity-colour-green:           #8fbcbb;
+        --uc-identity-colour-yellow:          #ebcb8b;
+        --uc-identity-colour-orange:          #d08770;
+        --uc-identity-colour-red:             #bf616a;
         --uc-identity-colour-pink:            #F78FB3;
-        --uc-identity-colour-purple:          #786FA6;
+        --uc-identity-colour-purple:          #b48ead;
 
         --uc-identity-colour-blue-muted:      #7ED6DF99;
         --uc-identity-colour-turquoise-muted: #55E6C199;
@@ -80,19 +89,18 @@
 
     @media (prefers-color-scheme: light) { :root {
 
-        --window-colour:                     #FAFAFC;
-        --secondary-colour:                  #EAEAEC;
-        --inverted-colour:                   #1E2021;
-
+        --window-colour:                     #eceff4;
+        --secondary-colour:                  #d8dee9;
+        --inverted-colour:                   #434c5e;
         /* Containter Tab Colours */
-        --uc-identity-colour-blue:            #1D65F5;
-        --uc-identity-colour-turquoise:       #209FB5;
-        --uc-identity-colour-green:           #40A02B;
-        --uc-identity-colour-yellow:          #E49320;
-        --uc-identity-colour-orange:          #FE640B;
-        --uc-identity-colour-red:             #FC5C65;
-        --uc-identity-colour-pink:            #EC83D0;
-        --uc-identity-colour-purple:          #822FEE;
+        --uc-identity-colour-blue:            #5e81ac;
+        --uc-identity-colour-turquoise:       #88c0d0;
+        --uc-identity-colour-green:           #8fbcbb;
+        --uc-identity-colour-yellow:          #ebcb8b;
+        --uc-identity-colour-orange:          #d08770;
+        --uc-identity-colour-red:             #bf616a;
+        --uc-identity-colour-pink:            #F78FB3;
+        --uc-identity-colour-purple:          #b48ead;
 
         --uc-identity-colour-blue-muted:      #1D65F5FF;
         --uc-identity-colour-turquoise-muted: #209FB5FF;
@@ -151,7 +159,7 @@
      /* zoom indicator */
      #urlbar-zoom-button { display: none !important; }
 
-     /* Make button small as Possible, hidden out of sight */
+     /* Make button small as Possible, hidden out of sight
      #PanelUI-button { margin-top: -5px; margin-bottom: 44px; }
 
      #PanelUI-menu-button {
@@ -165,6 +173,7 @@
 
      #PanelUI-menu-button .toolbarbutton-icon { width: 1px !important; }
      #PanelUI-menu-button .toolbarbutton-badge-stack { padding: 0px !important; }
+     */
 
      #reader-mode-button{ display: none !important; }
 
@@ -181,6 +190,11 @@
      #page-action-buttons { display: none !important; }
 
      #urlbar-go-button { display: none !important; }
+
+     #urlbar {
+         font-family: 'JetBrainsMono' !important;
+         font-size : 12px !important;
+     }
 
 
 
