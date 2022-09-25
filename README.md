@@ -95,7 +95,7 @@ For the full list of shortcuts visit [the official Firefox website](https://supp
 <br><br>
 
 Hi I'm timbergrizz, amateur stack overflow copy&paster. I edited some attributes on Cascade themes. <br>
-I applied Nord Theme Color for light / dark mode, and changed the font family on url bar to [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono). Also I added Menu toggle bar on the right side of url bars.
+I applied [Nord Theme Color](https://github.com/arcticicestudio/nord) from Arctic Ice Studio for light / dark mode, and changed the font family on url bar to [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono). Also I added Menu toggle bar on the right side of url bars.
 
 ![](assets/Screenshot_light.png)
 ![](assets/Screenshot_dark.png)
